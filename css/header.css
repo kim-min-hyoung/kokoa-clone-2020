@@ -13,4 +13,5 @@
 .welcome-header__text {
   width: 60%;
   opacity: 0.7;
+  line-height: 1.2;
 }
