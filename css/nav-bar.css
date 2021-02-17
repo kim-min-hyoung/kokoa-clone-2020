@@ -1,0 +1,45 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(241, 241, 241);
+  padding: 15px 55px;
+  border: 1px solid rgba(178, 178, 178, 0.09);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.nav__btn {
+  color: rgb(27, 27, 27);
+}
+
+.nav__notification {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+.nav__notification-dot {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  position: absolute;
+  left: 35px;
+}

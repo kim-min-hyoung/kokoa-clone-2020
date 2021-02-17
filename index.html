@@ -23,8 +23,8 @@
         <span>18:43</span>
       </div>
       <div class="status-bar__colume">
-        <span>11%</span>
-        <i class="fas fa-battery-empty fa-lg"></i>
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
         <i class="fas fa-bolt"></i>
       </div>
     </div>
@@ -37,9 +37,14 @@
       </p>
     </header>
 
-    <form class="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="password" />
+    <form action="friends.html" method="get" class="login-form">
+      <input
+        name="username"
+        type="text"
+        required
+        placeholder="Email or phone number"
+      />
+      <input name="password" type="password" required placeholder="password" />
       <input type="submit" value="Log in" />
       <a href="#">Find Kakao Account or Password</a>
     </form>
