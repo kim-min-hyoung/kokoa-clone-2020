@@ -70,3 +70,9 @@
   margin-bottom: 12px;
   display: block;
 }
+
+.user-component__column:first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
