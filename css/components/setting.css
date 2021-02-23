@@ -1,0 +1,57 @@
+.main-screen {
+  position: fixed;
+  top: 4%;
+  width: 100%;
+  display: flex;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-screen {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.main-screen__title {
+  font-weight: 500;
+}
+
+.main-screen__chevron {
+  margin-right: auto;
+  opacity: 0.8;
+}
+
+.main-screen__icon i {
+  margin-left: 10px;
+}
+
+.main-screen__icon {
+  margin-left: auto;
+  opacity: 0.8;
+}
+
+.setting {
+  margin-top: 110px;
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.setting-settings__column {
+  padding: 20px 0px;
+}
+
+.setting-settings__column i {
+  margin-right: 7px;
+}
+
+.setting-settings__column {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+.main-screen__title {
+  margin-left: 30px;
+}

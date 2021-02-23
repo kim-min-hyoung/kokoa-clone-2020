@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/5f1cf82302.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="c-nemo-logo.png" />
+    <title>Chat w/ kim-min-hyoung</title>
+  </head>
+  <div class="no-mobile">화면이 너무 커</div>
+
+  <body id="chat-screen">
+    <div id="status-bar">
+      <div class="status-bar__colume">
+        <span>No Seevice</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__colume">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__colume">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="main-screen_chat">
+      <div class="main-screen__chevron">
+        <a href="more.html"> <i class="fas fa-chevron-left fa-lg"></i> </a>
+      </div>
+      <h1 class="main-screen_chat__title">min-hyoung kim</h1>
+      <div class="main-screen__icon">
+        <i class="fas fa-search fa-lg"></i>
+        <i class="fas fa-bars fa-lg"></i>
+      </div>
+    </header>
+
+    <main class="main-chat">
+      <div class="chat_timestamp">Tuesday, June 30, 2020</div>
+
+      <div class="message-row">
+        <img src="sample/sample profile.png" />
+        <div class="message-row__content">
+          <span class="message__author">민형</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">안녕하세요. 밥을 먹으러 가죠.</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">    
+            <i class="far fa-plus-square fa-lg"></i>  
+        </div>
+      <div class="reply__column">
+         <input type="text" placeholder="Write a message" />
+         <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+         <i class="fas fa-arrow-up"></i>
+        </button>
+        </div>     
+        
+ </form>
+  </body>
+</html>

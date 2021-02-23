@@ -18,3 +18,22 @@
   justify-content: space-around;
   margin-right: 110px;
 }
+
+.more-suggestions :first-child i {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(244, 244, 70);
+  color: white;
+}
+.more-suggestions :nth-child(2) i {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(244, 244, 70);
+  color: white;
+}
+.more-suggestions :nth-child(3) i {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(244, 244, 70);
+  color: white;
+}

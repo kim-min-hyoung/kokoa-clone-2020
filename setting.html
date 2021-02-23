@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="c-nemo-logo.png" />
-    <title>Chats</title>
+    <title>Settings</title>
   </head>
 
   <body>
@@ -29,38 +29,37 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icon">
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <a href="setting.html"><span><i class="fas fa-cog fa-lg"></i></span></a>
+    <header class="main-screen">
+      <div class="main-screen__chevron">
+        <a href="more.html"> <i class="fas fa-chevron-left fa-lg"></i> </a>
+      </div>
+      <h1 class="main-screen__title">Settings</h1>
+      <div class="main-screen__icon">
+        <i class="fas fa-search fa-lg"></i>
       </div>
     </header>
 
-    <a href="chat.html">
-    <main class="friends_screen">
-
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="sample/sample profile.png"
-              class="user-component__avatar user-component__avatar--xl"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">kim-min-hyoung</h4>
-              <h6 class="user-component__subtitle">Plase check My Kakao Account info</h6>
-            </div>
-        </div>
-        <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-            <p class="badge">3</p>
-        </div>
-        </main>               
-      </a>
-      <div class="no-mobile">화면이 너무 커</div>
-
+    <div class="setting">
+      <ul class="setting-settings">
+        <li class="setting-settings__column">
+          <div class="setting-settings__coulmn-version">
+            <i class="fas fa-search fa-lg"></i><span>Notices</span>
+          </div>
+        </li>
+        <li class="setting-settings__column">
+          <div class="setting-settings__coulmn-version">
+            <i class="fas fa-search fa-lg"></i><span>Kakao Lab</span>
+          </div>
+        </li>
+        <li class="setting-settings__column">
+          <div class="setting-settings__coulmn-version">
+            <i class="fas fa-search fa-lg"></i><span>Version</span>
+          </div>
+          <span class="setting-settings__coulmn-version">Latest Version</span>
+        </li>
+      </ul>
+    </div>
+    <div class="no-mobile">화면이 너무 커</div>
 
     <nav class="nav">
       <ul class="nav__list">
@@ -72,7 +71,7 @@
         <li class="nav__list">
           <span class="nav__notification badge">1</span>
           <a class="nav__btn" href="chats.html"
-            ><i class="fas fa-comment fa-2x"></i
+            ><i class="far fa-comment fa-2x"></i
           ></a>
         </li>
         <li class="nav__list">

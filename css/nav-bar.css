@@ -18,6 +18,20 @@
   color: rgb(27, 27, 27);
 }
 
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
 .nav__notification {
   background-color: tomato;
   display: flex;
@@ -30,6 +44,7 @@
   position: absolute;
   bottom: 10px;
   left: 20px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav__notification-dot {

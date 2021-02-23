@@ -30,3 +30,47 @@
   display: flex;
   justify-content: space-between;
 }
+
+@keyframes hideSplahScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash-screen {
+  background-color: rgba(247, 255, 8);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+  z-index: 1;
+  animation: hideSplahScreen 0.3s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+.no-mobile {
+  background-color: yellow;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  z-index: 99;
+}
+
+@media screen and (max-width: 700px) {
+  .no-mobile {
+    display: none;
+  }
+}
